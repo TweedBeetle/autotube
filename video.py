@@ -59,7 +59,7 @@ class YoutubeVideo:
             'defaultAudioLanguage': self.language_code,
         }
 
-    def upload(self, yt_account, private=True, playlist_ids=None):
+    def upload_to_yt_account(self, yt_account, private=True, playlist_ids=None):
 
         # Disable OAuthlib's HTTPS verification when running locally.
         # *DO NOT* leave this option enabled in production.
