@@ -23,7 +23,7 @@ def close_clip(vidya_clip):
 
 
 class YoutubeVideo:
-    def __init__(self, title, description, tags, category_id, video_location, thumbnail_location, language_code='en'):
+    def __init__(self, title, description, tags, category_id, video_location, thumbnail_location=None, language_code='en'):
         self.title = title
         self.description = description
         self.tags = tags
